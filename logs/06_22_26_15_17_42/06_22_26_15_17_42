@@ -1,0 +1,11 @@
+[2026-06-22 15:17:42,628] 96 werkzeug -INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[2026-06-22 15:17:42,629] 96 werkzeug -INFO - [33mPress CTRL+C to quit[0m
+[2026-06-22 15:19:13,258] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:13] "GET / HTTP/1.1" 200 -
+[2026-06-22 15:19:13,321] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-22 15:19:16,766] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:16] "GET /predictdata HTTP/1.1" 200 -
+[2026-06-22 15:19:16,882] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:16] "GET /static/style.css HTTP/1.1" 200 -
+[2026-06-22 15:19:39,666] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:39] "POST /predictdata HTTP/1.1" 200 -
+[2026-06-22 15:19:39,679] 96 werkzeug -INFO - 127.0.0.1 - - [22/Jun/2026 15:19:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
